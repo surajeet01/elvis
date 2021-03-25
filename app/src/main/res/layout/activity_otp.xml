@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1f1d"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/otpLogo"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:transitionName="logo_anim"
+        app:srcCompat="@drawable/splash" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:fontFamily="@font/bungee"
+        android:includeFontPadding="false"
+        android:layout_marginTop="0dp"
+        android:text="OTP Verification"
+        android:textColor="#BFAD0F"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/otpHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/antic"
+        android:text="OTP has been sent on\n+919679176083"
+        android:textColor="#CCC588"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <com.chaos.view.PinView
+            android:id="@+id/otpPinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:itemCount="6"
+            app:itemHeight="40dp"
+            app:itemWidth="40dp"
+            app:itemSpacing="7dp"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:cursorVisible="true"
+            android:itemBackground="@color/brighterBackground"
+            style="@style/PinWidget.PinView" />
+
+        <Button
+            android:id="@+id/otpVerifyBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#EFEDED"
+            android:fontFamily="@font/antic"
+            android:text="Verify"
+            android:layout_gravity="center"
+            android:textColor="#D8D3D3"
+            android:onClick="otpVerifyClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

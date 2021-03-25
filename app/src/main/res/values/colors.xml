@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="windowBackground">#1F1F1D </color>
+    <color name="brighterBackground">#30302D</color>
+    <color name="facebookColor">#4267B2 </color>
+    <color name="googleColor">#DE5246 </color>
+    <color name="neonYellow">#BFAD0F</color>
+</resources>

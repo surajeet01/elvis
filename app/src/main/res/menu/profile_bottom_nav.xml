@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/icon_profile"
+        app:cnb_backgroundColor="@color/facebookColor"/>
+
+    <item
+        android:id="@+id/bottom_nav_search"
+        android:title="Search"
+        android:icon="@drawable/icon_search"
+        app:cnb_backgroundColor="@color/facebookColor"/>
+
+    <item
+        android:id="@+id/bottom_nav_message"
+        android:title="Messages"
+        android:icon="@drawable/icon_messages"
+        app:cnb_backgroundColor="@color/facebookColor"/>
+
+</menu>

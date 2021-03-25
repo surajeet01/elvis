@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "815823516447",
+    "firebase_url": "https://elvis-test1.firebaseio.com",
+    "project_id": "elvis-test1",
+    "storage_bucket": "elvis-test1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815823516447:android:0e070dcafcfe81b464362a",
+        "android_client_info": {
+          "package_name": "com.example.elvis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815823516447-o3jisrq8j0mbdp85dvbgpd0sqqakuqqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBASMcXL2ml_VYqTSVnqzH2o7z2QB4iCBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815823516447-o3jisrq8j0mbdp85dvbgpd0sqqakuqqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
